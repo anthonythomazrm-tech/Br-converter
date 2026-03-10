@@ -1,0 +1,28 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / empacotamento
+build/
+dist/
+*.spec
+
+# Binários pesados
+bin/
+*.exe
+*.zip
+*.rar
+*.7z
+
+# IDEs
+.idea/
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
