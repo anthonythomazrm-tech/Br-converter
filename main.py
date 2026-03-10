@@ -19,7 +19,7 @@ def main():
     win.minsize(980, 640)
 
     # ÍCONE (se tiver)
-    icon_path = os.path.join(os.path.dirname(__file__), "assets", "icon.png")
+    icon_path = os.path.join(os.path.dirname(__file__), "assets", "icon.ico")
     try:
         if os.path.exists(icon_path):
             img = tb.PhotoImage(file=icon_path)
